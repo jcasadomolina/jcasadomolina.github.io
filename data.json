@@ -1,0 +1,216 @@
+{
+    "title": "José Antonio Casado Molina | Portafolio",
+    "description": "Graduado en Ingeniería del Software con experiencia en desarrollo web y móvil, enfocado en Angular, Swift y Python Full-Stack.",
+    "image": "/avatar.jpg",
+    "avatar": "/avatar.jpg",
+    "name": "José Antonio Casado Molina",
+    "skill": "Desarrollador de software | Angular, Swift, Python",
+    "location": "Baena, Córdoba (España)",
+    "media": {
+        "email": "jcasadomolina@outlook.es",
+        "cv": "/data/Curriculum Vitae Jose Antonio Casado Molina.pdf",
+        "github": "https://github.com/jcasadomolina",
+        "likedin": "https://www.linkedin.com/in/jose-antonio-casado-molina-976007385"
+    },
+    "about": "Graduado en Ingeniería del Software por la Universidad de Málaga con un perfil técnico versátil en desarrollo de sistemas web y móviles. Experiencia práctica en Frontend con Angular e iOS con Swift (UIKit y SwiftUI), complementada con base Full-Stack en Python, trabajo con metodologías ágiles (Scrum) y flujo GitFlow.",
+    "technologies": [
+        {
+            "icon": "devicon-swift-plain",
+            "name": "Swift"
+        },
+        {
+            "icon": "devicon-typescript-plain",
+            "name": "TypeScript"
+        },
+        {
+            "icon": "devicon-javascript-plain",
+            "name": "JavaScript"
+        },
+        {
+            "icon": "devicon-angularjs-plain",
+            "name": "Angular"
+        },
+        {
+            "icon": "devicon-python-plain",
+            "name": "Python"
+        },
+        {
+            "icon": "devicon-java-plain",
+            "name": "Java"
+        },
+        {
+            "icon": "devicon-cplusplus-plain",
+            "name": "C++"
+        },
+        {
+            "icon": "devicon-mysql-plain",
+            "name": "MySQL"
+        },
+        {
+            "icon": "devicon-microsoftsqlserver-plain",
+            "name": "SQL Server"
+        },
+        {
+            "icon": "devicon-git-plain",
+            "name": "Git"
+        },
+        {
+            "icon": "devicon-github-original",
+            "name": "GitHub"
+        }
+    ],
+    "experience": [
+        {
+            "icon": "briefcase-business",
+            "title": "ViewNext (Málaga)",
+            "subtitle": "Desarrollador de Aplicaciones (Prácticas)",
+            "description": "Implementación de más de 15 componentes escalables en Swift para app nativa de Iberdrola, desarrollo frontend en Angular con pruebas unitarias (Jasmine y Karma) y colaboración en equipo Scrum con GitFlow.",
+            "date": "2026"
+        }
+    ],
+    "projects": [
+        {
+            "icon": "/logo-danapp-192x192.png",
+            "title": "DANApp: Prevención de los efectos de la DANA (TFG)",
+            "subtitle": "Aplicación web-móvil",
+            "description": "Desarrollo de una solución de ciclo completo (296 horas) enfocada en la mitigación de impactos de fenómenos meteorológicos extremos, integrando procesamiento de datos con Pandas y NumPy.",
+            "technologies": [
+                {
+                    "icon": "devicon-python-plain",
+                    "name": "Python"
+                },
+                {
+                    "icon": "devicon-pandas-original",
+                    "name": "Pandas"
+                },
+                {
+                    "icon": "devicon-numpy-original",
+                    "name": "NumPy"
+                }
+            ],
+            "image": "/danapp_ex.png",
+            "url": "",
+            "github": "https://github.com/jcasadomolina"
+        },
+        {
+            "icon": "scan-search",
+            "title": "Síntesis de OCR de números en Vitis HLS",
+            "subtitle": "Modelo neuronal para hardware",
+            "description": "Diseño e implementación en Python y C++ de un modelo optimizado para clasificación de dígitos manuscritos del dataset MNIST.",
+            "technologies": [
+                {
+                    "icon": "devicon-python-plain",
+                    "name": "Python"
+                },
+                {
+                    "icon": "devicon-cplusplus-plain",
+                    "name": "C++"
+                }
+            ],
+            "image": "/project_2.jpg",
+            "url": "",
+            "github": "https://github.com/jcasadomolina"
+        },
+        {
+            "icon": "calendar-days",
+            "title": "Kalendas: Aplicación web de calendarios de eventos",
+            "subtitle": "Gestor de calendarios vía web",
+            "description": "Construcción de backend con FastAPI y persistencia en bases de datos relacionales con MySQL y SQL Server.",
+            "technologies": [
+                {
+                    "icon": "devicon-fastapi-plain",
+                    "name": "FastAPI"
+                },
+                {
+                    "icon": "devicon-mysql-plain",
+                    "name": "MySQL"
+                },
+                {
+                    "icon": "devicon-microsoftsqlserver-plain",
+                    "name": "SQL Server"
+                }
+            ],
+            "image": "/project_1.jpg",
+            "url": "",
+            "github": "https://github.com/jcasadomolina"
+        }
+    ],
+    "training": [
+        {
+            "icon": "graduation-cap",
+            "title": "Universidad de Málaga",
+            "subtitle": "Grado en Ingeniería del Software",
+            "description": "Formación universitaria en ingeniería del software con enfoque en desarrollo de aplicaciones y arquitectura.",
+            "date": "2021 - 2026",
+            "certificate": ""
+        },
+        {
+            "icon": "book-open-text",
+            "title": "Escuelas Profesionales Sagrada Familia (Baena)",
+            "subtitle": "Bachillerato Tecnológico",
+            "description": "Base técnica preuniversitaria orientada a tecnología e ingeniería.",
+            "date": "2019 - 2021",
+            "certificate": ""
+        },
+        {
+            "icon": "badge-check",
+            "title": "Angular 21 - Desde cero hasta profesional",
+            "subtitle": "Udemy",
+            "description": "Curso de 14.5 horas de especialización en Angular.",
+            "date": "Formación complementaria",
+            "certificate": "https://www.udemy.com/certificate/UC-b30f4b0a-7259-48e1-ba41-731c2d9b5294/"
+        },
+        {
+            "icon": "badge-check",
+            "title": "Angular: Pruebas Unitarias con Jasmine y Karma",
+            "subtitle": "Udemy",
+            "description": "Curso de 6.5 horas enfocado en testing frontend con Jasmine y Karma.",
+            "date": "Formación complementaria",
+            "certificate": "https://www.udemy.com/certificate/UC-7018f9f0-346e-4221-adb7-daee84503a11/"
+        },
+        {
+            "icon": "badge-check",
+            "title": "Copilot: Fundamentos de IA de Microsoft",
+            "subtitle": "Santander Open Academy",
+            "description": "Curso de 8 horas sobre fundamentos de IA aplicada con Copilot.",
+            "date": "Formación complementaria",
+            "certificate": "https://lms.santanderopenacademy.com/courses/340"
+        },
+        {
+            "icon": "badge-check",
+            "title": "Introducción a la programación con Python",
+            "subtitle": "Santander Open Academy",
+            "description": "Curso de 8 horas de introducción práctica al desarrollo con Python.",
+            "date": "Formación complementaria",
+            "certificate": "https://lms.santanderopenacademy.com/courses/508"
+        },
+        {
+            "icon": "badge-check",
+            "title": "Certificado curso TFG Inf y Teleco",
+            "subtitle": "Universidad de Málaga",
+            "description": "Curso de 15 horas orientado al desarrollo y documentación del trabajo fin de grado.",
+            "date": "Formación complementaria",
+            "certificate": "https://prod-gonce-verifirma.uma.es/verifirma/code/786A-6161-6233P434E-5965"
+        }
+    ],
+    "extras": [
+        {
+            "image": "/extra_1.jpg",
+            "title": "Idiomas",
+            "description": "Inglés B1 (Trinity) con nivel de competencia real B2 y preparación para certificación oficial.",
+            "url": ""
+        },
+        {
+            "image": "/extra_2.jpg",
+            "title": "Metodologías y áreas",
+            "description": "Experiencia en Scrum, GitFlow y aplicación de técnicas de Ciencia de Datos en proyectos software.",
+            "url": ""
+        },
+        {
+            "image": "/extra_3.jpg",
+            "title": "Otros datos de interés",
+            "description": "Carné de conducir B, vehículo propio y disponibilidad para movilidad geográfica nacional.",
+            "url": ""
+        }
+    ]
+}

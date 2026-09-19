@@ -1,0 +1,26 @@
+{
+  "personalInfo": {
+    "name": "Tu Nombre",
+    "title": "Desarrollador Web",
+    "description": "Soy un desarrollador web apasionado por crear experiencias digitales atractivas."
+  },
+  "projects": [
+    {
+      "title": "Proyecto 1",
+      "description": "Descripción del proyecto 1.",
+      "link": "https://enlace-a-proyecto1.com"
+    },
+    {
+      "title": "Proyecto 2",
+      "description": "Descripción del proyecto 2.",
+      "link": "https://enlace-a-proyecto2.com"
+    }
+  ],
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "Node.js"
+  ]
+}
