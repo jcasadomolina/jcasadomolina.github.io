@@ -1,34 +1,54 @@
-// app.js
+const portfolioUrl = '../data.json';
 
-// Cargar datos desde data.json
-fetch('../data.json')
-    .then(response => response.json())
+const createElement = (tag, className, text) => {
+    const element = document.createElement(tag);
+    element.className = className;
+    element.textContent = text;
+    return element;
+};
+
+fetch(portfolioUrl)
+    .then(response => {
+        if (!response.ok) {
+            throw new Error(`No se pudo cargar el portfolio (${response.status})`);
+        }
+        return response.json();
+    })
     .then(data => {
-        // Aquí puedes manejar los datos y actualizar el contenido del portafolio
-        console.log(data);
-        
-        // Ejemplo de cómo podrías usar los datos
-        document.getElementById('name').textContent = data.name;
-        document.getElementById('bio').textContent = data.bio;
+        const personalInfo = data.personalInfo || {};
+        const name = personalInfo.name || 'Tu Nombre';
+        const title = personalInfo.title || 'Desarrollador Web';
 
-        const projectsContainer = document.getElementById('projects');
-        data.projects.forEach(project => {
-            const projectElement = document.createElement('div');
-            projectElement.classList.add('project');
-            projectElement.innerHTML = `
-                <h3>${project.title}</h3>
-                <p>${project.description}</p>
-                <a href="${project.link}" target="_blank">Ver proyecto</a>
-            `;
-            projectsContainer.appendChild(projectElement);
+        document.title = `${name} | ${title}`;
+        document.getElementById('name').textContent = name;
+        document.getElementById('footer-name').textContent = name;
+        document.getElementById('role').textContent = title;
+        document.getElementById('bio').textContent = personalInfo.description || '';
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        const projectsContainer = document.getElementById('project-list');
+        (data.projects || []).forEach((project, index) => {
+            const card = createElement('article', 'project-card');
+            const number = createElement('span', 'project-number', `0${index + 1}`);
+            const titleElement = createElement('h3', '', project.title);
+            const description = createElement('p', '', project.description);
+            const link = document.createElement('a');
+            link.className = 'project-link';
+            link.href = project.link || '#';
+            link.target = '_blank';
+            link.rel = 'noreferrer';
+            link.innerHTML = 'Ver proyecto <span aria-hidden="true">&#8599;</span>';
+
+            card.append(number, titleElement, description, link);
+            projectsContainer.appendChild(card);
         });
 
-        const skillsContainer = document.getElementById('skills');
-        data.skills.forEach(skill => {
-            const skillElement = document.createElement('span');
-            skillElement.classList.add('skill');
-            skillElement.textContent = skill;
-            skillsContainer.appendChild(skillElement);
+        const skillsContainer = document.getElementById('skills-list');
+        (data.skills || []).forEach(skill => {
+            skillsContainer.appendChild(createElement('span', 'skill', skill));
         });
     })
-    .catch(error => console.error('Error al cargar los datos:', error));
+    .catch(error => {
+        document.getElementById('bio').textContent = 'No se pudo cargar la información del portfolio.';
+        console.error(error);
+    });
