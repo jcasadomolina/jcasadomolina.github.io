@@ -14,6 +14,8 @@ Todos los textos visibles y enlaces principales se editan en [`data.json`](data.
 
 La estructura visual y los textos fijos de la página están en [`src/App.vue`](src/App.vue); los colores, espacios, tipografías y animaciones están en [`src/style.css`](src/style.css).
 
+Los logos de tecnologías se cargan desde Devicon y los iconos de GitHub, LinkedIn y PDF desde Font Awesome mediante CDN en [`index.html`](index.html).
+
 ## Desarrollo
 
 ```bash

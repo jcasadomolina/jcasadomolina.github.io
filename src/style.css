@@ -70,7 +70,7 @@ h1 em, em { font-family: Georgia, serif; font-weight: 400; }
 .tag-list, .skills-list { display: flex; align-content: start; flex-wrap: wrap; gap: 9px; }
 .tag-list { margin-top: auto; padding-top: 25px; }
 .tech-tag, .skill { display: inline-flex; align-items: center; gap: 7px; padding: 7px 9px; border: 1px solid var(--line); color: var(--muted); font-size: .68rem; }
-.tech-icon { display: inline-grid; place-items: center; min-width: 23px; height: 20px; padding: 0 3px; border: 1px solid rgba(129, 140, 248, .6); color: var(--accent-soft); font-family: "Avenir Next", sans-serif; font-size: .54rem; font-weight: 800; letter-spacing: -.02em; }
+.tech-icon { display: inline-block; min-width: 18px; color: var(--accent-soft); font-size: 1rem; font-style: normal; }
 
 .skills-section { display: grid; grid-template-columns: 1fr 2fr; gap: 32px; padding: 116px 0; border-top: 1px solid var(--line); }
 .skills-list { padding-top: 6px; }
@@ -82,7 +82,7 @@ h1 em, em { font-family: Georgia, serif; font-weight: 400; }
 .email-link { display: inline-flex; gap: 22px; align-items: center; padding-bottom: 11px; border-bottom: 1px solid var(--accent-soft); color: var(--paper); font-size: clamp(1rem, 2vw, 1.3rem); }
 .social-links { display: flex; flex-wrap: wrap; gap: 24px; margin-top: 40px; color: var(--muted); font-size: .76rem; }
 .social-link { display: inline-flex; align-items: center; gap: 8px; }
-.social-link svg { width: 18px; height: 18px; fill: currentColor; stroke: currentColor; stroke-width: 1.4; }
+.social-link i { width: 18px; color: var(--accent-soft); font-size: 1rem; text-align: center; }
 .footer { display: flex; justify-content: space-between; gap: 20px; padding: 26px 0 36px; border-top: 1px solid var(--line); color: var(--muted); font-size: .68rem; }
 
 @media (max-width: 760px) {
