@@ -1,5 +1,5 @@
 ---
-description: "Diseña e implementa una hero section responsive para un portafolio de desarrollador full-stack"
+description: "Diseña e implementa un portafolio de desarrollador full-stack"
 name: "Crear hero full-stack"
 argument-hint: "Indica nombre, roles animados, biografía y destinos de los botones"
 agent: "agent"
