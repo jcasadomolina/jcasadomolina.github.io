@@ -1,5 +1,6 @@
 <script setup>
 import { onMounted, onUnmounted, ref } from 'vue'
+import { ArrowDown, ArrowUpRight, BriefcaseBusiness, Code2, FileText } from '@lucide/vue'
 import portfolio from '../data.json'
 
 const roles = ['Desarrollador Full-Stack', 'Ingeniero de Software', 'Creador de producto']
@@ -45,7 +46,7 @@ onUnmounted(() => {
         <a href="#proyectos">Proyectos</a>
         <a href="#habilidades">Habilidades</a>
       </nav>
-      <a class="header-contact" :href="`mailto:${portfolio.media.email}`">Hablemos <span aria-hidden="true">↗</span></a>
+      <a class="header-contact" :href="`mailto:${portfolio.media.email}`">Hablemos <ArrowUpRight :size="15" aria-hidden="true" /></a>
     </header>
 
     <main>
@@ -55,12 +56,12 @@ onUnmounted(() => {
           <h1 id="hero-title">Creo experiencias digitales <em>que dejan huella.</em></h1>
           <p class="hero-text">Graduado en Ingeniería del Software especializado en convertir ideas complejas en productos web y móviles claros, robustos y humanos.</p>
           <div class="hero-actions">
-            <a class="button button-primary" href="#proyectos">Ver proyectos <span aria-hidden="true">↓</span></a>
+            <a class="button button-primary" href="#proyectos">Ver proyectos <ArrowDown :size="15" aria-hidden="true" /></a>
           </div>
           <p class="role-line" aria-live="polite"><span class="role-prefix">/</span> {{ typedRole }}<span class="cursor" aria-hidden="true"></span></p>
         </div>
         <div class="hero-aside" aria-label="Presentación">
-          <div class="portrait-mark">&lt;/&gt;</div>
+          <div class="portrait-mark" aria-hidden="true"><Code2 :size="42" :stroke-width="1.4" /></div>
           <p class="hero-note">Diseño y desarrollo<br /><strong>con intención.</strong></p>
           <span class="hero-index">01 / 04</span>
         </div>
@@ -118,18 +119,18 @@ onUnmounted(() => {
         </div>
         <div class="contact-details">
           <p>Si tienes una idea, un reto o simplemente quieres saludar, mi bandeja está abierta.</p>
-          <a class="email-link" :href="`mailto:${portfolio.media.email}`">{{ portfolio.media.email }} <span aria-hidden="true">↗</span></a>
+          <a class="email-link" :href="`mailto:${portfolio.media.email}`">{{ portfolio.media.email }} <ArrowUpRight :size="18" aria-hidden="true" /></a>
           <div class="social-links">
             <a class="social-link" :href="portfolio.media.github" target="_blank" rel="noreferrer">
-              <i class="fa-brands fa-github" aria-hidden="true"></i>
+              <Code2 :size="18" :stroke-width="1.7" aria-hidden="true" />
               GitHub
             </a>
             <a class="social-link" :href="portfolio.media.likedin" target="_blank" rel="noreferrer">
-              <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+              <BriefcaseBusiness :size="18" :stroke-width="1.7" aria-hidden="true" />
               LinkedIn
             </a>
             <a class="social-link" :href="portfolio.media.cv" target="_blank" rel="noreferrer">
-              <i class="fa-solid fa-file-pdf" aria-hidden="true"></i>
+              <FileText :size="18" :stroke-width="1.7" aria-hidden="true" />
               CV
             </a>
           </div>

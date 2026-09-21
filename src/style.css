@@ -26,7 +26,7 @@ h1, h2, h3, p { margin-top: 0; }
 .brand span, .eyebrow, .section-label, em, .role-prefix { color: var(--accent-soft); }
 nav { display: flex; gap: 28px; color: var(--muted); font-size: .76rem; }
 nav a:hover, .social-link:hover { color: var(--paper); }
-.header-contact { padding: 10px 0 8px; border-bottom: 1px solid var(--accent-soft); color: var(--paper); font-size: .76rem; }
+.header-contact { display: inline-flex; align-items: center; gap: 7px; padding: 10px 0 8px; border-bottom: 1px solid var(--accent-soft); color: var(--paper); font-size: .76rem; }
 
 .hero { display: grid; grid-template-columns: 1.4fr .6fr; align-items: center; min-height: 630px; position: relative; isolation: isolate; padding: 100px 0 110px; }
 .hero::before { content: ""; position: absolute; inset: 0 -20vw; z-index: -1; pointer-events: none; opacity: .28; background-image: linear-gradient(var(--line) 1px, transparent 1px), linear-gradient(90deg, var(--line) 1px, transparent 1px); background-size: 82px 82px; mask-image: linear-gradient(to right, black, transparent 72%); }
@@ -46,7 +46,7 @@ h1 em, em { font-family: Georgia, serif; font-weight: 400; }
 .cursor { display: inline-block; width: 2px; height: 1.15em; margin-left: 5px; vertical-align: -.17em; background: var(--accent-soft); animation: cursor-blink .9s steps(1) infinite; }
 @keyframes cursor-blink { 50% { opacity: 0; } }
 .hero-aside { align-self: end; justify-self: end; width: 180px; padding-bottom: 4px; color: var(--muted); }
-.portrait-mark { display: grid; place-items: center; width: 120px; height: 120px; margin-bottom: 28px; border: 1px solid var(--line); color: var(--accent-soft); font-family: Georgia, serif; font-size: 2.2rem; transform: rotate(-8deg); }
+.portrait-mark { display: grid; place-items: center; width: 120px; height: 120px; margin-bottom: 28px; border: 1px solid var(--line); color: var(--accent-soft); transform: rotate(-8deg); }
 .hero-note { font-family: Georgia, serif; font-size: 1.05rem; font-style: italic; line-height: 1.4; }
 .hero-note strong { color: var(--paper); font-weight: 400; }
 .hero-index { display: block; margin-top: 56px; color: var(--accent-soft); font-size: .7rem; letter-spacing: .14em; }
@@ -82,7 +82,7 @@ h1 em, em { font-family: Georgia, serif; font-weight: 400; }
 .email-link { display: inline-flex; gap: 22px; align-items: center; padding-bottom: 11px; border-bottom: 1px solid var(--accent-soft); color: var(--paper); font-size: clamp(1rem, 2vw, 1.3rem); }
 .social-links { display: flex; flex-wrap: wrap; gap: 24px; margin-top: 40px; color: var(--muted); font-size: .76rem; }
 .social-link { display: inline-flex; align-items: center; gap: 8px; }
-.social-link i { width: 18px; color: var(--accent-soft); font-size: 1rem; text-align: center; }
+.social-link svg { color: var(--accent-soft); }
 .footer { display: flex; justify-content: space-between; gap: 20px; padding: 26px 0 36px; border-top: 1px solid var(--line); color: var(--muted); font-size: .68rem; }
 
 @media (max-width: 760px) {
