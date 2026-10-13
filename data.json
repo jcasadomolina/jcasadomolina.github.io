@@ -4,10 +4,10 @@
     "image": "/avatar.jpg",
     "avatar": "/avatar.jpg",
     "name": "José Antonio Casado Molina",
-    "skill": "Desarrollador de software | Angular, Swift, Python",
+    "skill": "Desarrollador de software",
     "location": "Baena, Córdoba (España)",
     "media": {
-        "email": "jcasadomolina@outlook.es",
+        "email": "jacasadomolina@gmail.com",
         "cv": "/data/Curriculum Vitae Jose Antonio Casado Molina.pdf",
         "github": "https://github.com/jcasadomolina",
         "likedin": "https://www.linkedin.com/in/jose-antonio-casado-molina-976007385"
@@ -96,7 +96,7 @@
             "icon": "scan-search",
             "title": "Síntesis de OCR de números en Vitis HLS",
             "subtitle": "Modelo neuronal para hardware",
-            "description": "Diseño e implementación en Python y C++ de un modelo optimizado para clasificación de dígitos manuscritos del dataset MNIST.",
+            "description": "Implementación de una red neuronal convolucional (CNN) para reconocer dígitos manuscritos del 0 al 9 a partir de imágenes de **28 x 28 píxeles**. El proyecto está escrito en C/C++ y contiene tres variantes del mismo acelerador, preparadas para estudiar distintos compromisos entre simplicidad, paralelismo y latencia en flujos de síntesis de alto nivel (HLS).",
             "technologies": [
                 {
                     "icon": "devicon-python-plain",
@@ -109,30 +109,30 @@
             ],
             "image": "/project_2.jpg",
             "url": "",
-            "github": "https://github.com/jcasadomolina"
+            "github": "https://github.com/jcasadomolina/CNN-OCR-en-C-para-MNIST"
         },
         {
-            "icon": "calendar-days",
-            "title": "Kalendas: Aplicación web de calendarios de eventos",
-            "subtitle": "Gestor de calendarios vía web",
-            "description": "Construcción de backend con FastAPI y persistencia en bases de datos relacionales con MySQL y SQL Server.",
+            "icon": "code-2",
+            "title": "Curso de Desarrollo Web y Frameworks",
+            "subtitle": "Repositorio de proyectos y retos",
+            "description": "Repositorio de GitHub con proyectos y retos organizados por niveles que cubren frontend, backend, APIs, persistencia, seguridad y aplicaciones full stack.",
             "technologies": [
                 {
-                    "icon": "devicon-fastapi-plain",
-                    "name": "FastAPI"
+                    "icon": "layers-3",
+                    "name": "Frontend y backend"
                 },
                 {
-                    "icon": "devicon-mysql-plain",
-                    "name": "MySQL"
+                    "icon": "brackets",
+                    "name": "APIs y persistencia"
                 },
                 {
-                    "icon": "devicon-microsoftsqlserver-plain",
-                    "name": "SQL Server"
+                    "icon": "shield-check",
+                    "name": "Seguridad y full stack"
                 }
             ],
             "image": "/project_1.jpg",
             "url": "",
-            "github": "https://github.com/jcasadomolina"
+            "github": "https://github.com/jcasadomolina/Curso-Programacion-Desarrollo-web-Frameworks"
         }
     ],
     "training": [

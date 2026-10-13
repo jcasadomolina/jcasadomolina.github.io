@@ -53,7 +53,7 @@ onUnmounted(() => {
       <section id="inicio" class="hero" aria-labelledby="hero-title">
         <div class="hero-copy">
           <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Disponible para nuevos proyectos</p>
-          <h1 id="hero-title">Creo experiencias digitales <em>que dejan huella.</em></h1>
+          <h1 id="hero-title">Creo experiencias digitales que dejan huella.</h1>
           <p class="hero-text">Graduado en Ingeniería del Software especializado en convertir ideas complejas en productos web y móviles claros, robustos y humanos.</p>
           <div class="hero-actions">
             <a class="button button-primary" href="#proyectos">Ver proyectos <ArrowDown :size="15" aria-hidden="true" /></a>
