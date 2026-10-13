@@ -87,7 +87,7 @@ onUnmounted(() => {
           <article v-for="(project, index) in portfolio.projects" :key="project.title" class="project-card">
             <span class="project-number">0{{ index + 1 }}</span>
             <p class="project-kind">{{ project.subtitle }}</p>
-            <h3>{{ project.title }}</h3>
+            <h3 :href="project.github" target="_blank" rel="noreferrer">{{ project.title }}</h3>
             <p>{{ project.description }}</p>
             <div class="tag-list" aria-label="Tecnologías utilizadas">
               <span v-for="technology in project.technologies" :key="technology.name" class="tech-tag">
