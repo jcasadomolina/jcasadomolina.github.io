@@ -71,6 +71,8 @@ h1 em, em { font-family: Georgia, serif; font-weight: 400; }
 .tag-list { margin-top: auto; padding-top: 25px; }
 .tech-tag, .skill { display: inline-flex; align-items: center; gap: 7px; padding: 7px 9px; border: 1px solid var(--line); color: var(--muted); font-size: .68rem; }
 .tech-icon { display: inline-block; min-width: 18px; color: var(--accent-soft); font-size: 1rem; font-style: normal; }
+.project-link { display: inline-flex; align-items: center; gap: 8px; width: fit-content; margin-top: 22px; padding-bottom: 7px; border-bottom: 1px solid var(--accent-soft); color: var(--paper); font-size: .76rem; font-weight: 700; }
+.project-link:hover { color: var(--accent-soft); }
 
 .skills-section { display: grid; grid-template-columns: 1fr 2fr; gap: 32px; padding: 116px 0; border-top: 1px solid var(--line); }
 .skills-list { padding-top: 6px; }

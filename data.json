@@ -73,7 +73,7 @@
             "icon": "/logo-danapp-192x192.png",
             "title": "DANApp: Prevención de los efectos de la DANA (TFG)",
             "subtitle": "Aplicación web-móvil",
-            "description": "Desarrollo de una solución de ciclo completo (296 horas) enfocada en la mitigación de impactos de fenómenos meteorológicos extremos, integrando procesamiento de datos con Pandas y NumPy.",
+            "description": "Desarrollo de una solución de ciclo completo enfocada en la mitigación de impactos de fenómenos meteorológicos extremos, integrando procesamiento de datos con Pandas y NumPy.",
             "technologies": [
                 {
                     "icon": "devicon-python-plain",
@@ -89,7 +89,7 @@
                 }
             ],
             "image": "/danapp_ex.png",
-            "url": "",
+            "url": "https://github.com/jcasadomolina/",
             "github": "https://github.com/jcasadomolina"
         },
         {
@@ -108,7 +108,7 @@
                 }
             ],
             "image": "/project_2.jpg",
-            "url": "",
+            "url": "https://github.com/jcasadomolina/CNN-OCR-en-C-para-MNIST",
             "github": "https://github.com/jcasadomolina/CNN-OCR-en-C-para-MNIST"
         },
         {
@@ -131,7 +131,7 @@
                 }
             ],
             "image": "/project_1.jpg",
-            "url": "",
+            "url": "https://github.com/jcasadomolina/Curso-Programacion-Desarrollo-web-Frameworks",
             "github": "https://github.com/jcasadomolina/Curso-Programacion-Desarrollo-web-Frameworks"
         }
     ],
