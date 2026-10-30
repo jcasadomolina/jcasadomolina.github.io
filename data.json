@@ -70,6 +70,38 @@
     ],
     "projects": [
         {
+            "icon": "share-2",
+            "title": "Nodex: notas y enlaces organizados con IA",
+            "subtitle": "Aplicación web full stack · PWA",
+            "description": "Aplicación para guardar notas y enlaces que una IA agrupa y relaciona por significado, con búsqueda semántica (pgvector), grafo interactivo, tareas y recordatorios con notificaciones push. Tiene modo demo: se prueba sin registrarse con una cuenta de ejemplo que se borra a las 24 horas.",
+            "technologies": [
+                {
+                    "icon": "devicon-nextjs-plain",
+                    "name": "Next.js"
+                },
+                {
+                    "icon": "devicon-react-original",
+                    "name": "React"
+                },
+                {
+                    "icon": "devicon-typescript-plain",
+                    "name": "TypeScript"
+                },
+                {
+                    "icon": "devicon-express-original",
+                    "name": "Express"
+                },
+                {
+                    "icon": "devicon-postgresql-plain",
+                    "name": "PostgreSQL"
+                }
+            ],
+            "image": "",
+            "url": "https://github.com/jcasadomolina/Nodex",
+            "github": "https://github.com/jcasadomolina/Nodex",
+            "demo": ""
+        },
+        {
             "icon": "/logo-danapp-192x192.png",
             "title": "DANApp: Prevención de los efectos de la DANA (TFG)",
             "subtitle": "Aplicación web-móvil",
